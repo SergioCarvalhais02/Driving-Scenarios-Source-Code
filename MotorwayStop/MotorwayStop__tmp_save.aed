@@ -1,0 +1,64 @@
+SILAB SILABAEdit
+{
+	SILAB_VERSION = 600;
+	MergedLayout = 1;
+	NAreaSpecificGraphicsInfos = 0;
+	NAreaSpecificTrafficInfos = 0;
+	ShowSCNInfo = 1;
+	ShowObjectNames = 1;
+	ShowFigureShapes = 1;
+	ShowFigurePreview = 0;
+	xmin = -800;
+	ymin = -300;
+	xmax = 100;
+	ymax = 200;
+	ActiveLayer = 3;
+	Layer0Visible = 0;
+	Layer1Visible = 1;
+	Layer2Visible = 1;
+	Layer3Visible = 1;
+	Layer4Visible = 1;
+	Layer5Visible = 1;
+	Layer l0
+	{
+		NFigures = 1;
+		Figure f0
+		{
+			# AR2FModelImage
+			Type = 1;
+			ID = 3;
+			x0 = -580;
+			y0 = -65;
+			x1 = -230;
+			y1 = 22;
+			FigureCounter = 2;
+			NoCopyImage = 0;
+			FN = "MotorwayStop.mi2.png";
+			GPS_BLE = 0;
+			GPS_BLN = 0;
+			GPS_TRE = 0;
+			GPS_TRN = 0;
+			DefinePort0 = 0;
+			Exporter PNG
+			{
+				FileName = "noname.png";
+				SizeFactor = 1;
+				Antialiasing = 1;
+				TransparentBackground = 0;
+				LineWidth = 2;
+			};
+			Exporter SVG
+			{
+				FileName = "noname.svg";
+				Antialiasing = 1;
+				LineWidth = 0.4;
+			};
+			Exporter PDF
+			{
+				FileName = "noname.pdf";
+				Antialiasing = 1;
+				LineWidth = 1;
+			};
+		};
+	};
+};
